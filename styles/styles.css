@@ -1,0 +1,104 @@
+/*COLOR PRIMARIO (Amarillo): #FEC51C*/
+/*COLOR SECUNDARIO (verde): #336834*/
+/*COLOR BLANCO: #FFFFFF*/
+/*COLOR NEGRO-MARRON: #2B1000*/
+/*COLOR GRIS: #7B7B7B*/
+/*COLOR BACKGROUND: #FFF0DC*/
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #FFF0DC;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    color: #2B1000;
+    margin: 0 50px
+}
+
+p {
+    color: #2B1000;
+    font-size: 12px;
+    text-align: justify;
+    padding: 0 40px;
+}
+
+.hero-title span{
+    color: #FEC51C;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+    color: #336834;
+    font-weight: 300;
+}
+
+.index-list {
+    background-color: #2B1000;
+    width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    list-style: none;
+    box-shadow: 5px 5px 15px black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.button {
+    color: white;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 5px;
+    text-decoration: none;
+    margin: 5px;
+    font-size: 10px;
+}
+
+.button:hover {
+    background-color: #FEC51C;
+    color: #2B1000;
+    border: 1px solid #FEC51C;
+}
+
+/*RECETAS*/
+
+img {
+    width: 100px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.steps {
+    text-align: center;
+    list-style: none;
+}
+
+.ingredients {
+    font-size: 10px;
+    color: #7B7B7B;
+    font-style: italic;
+    list-style: none;
+    margin-left: 40px;
+}
+
+.ingredient-button {
+    margin: 50px 40 50px;
+    background-color: #FEC51C;
+    color: #2B1000;
+    border: 1px solid #FEC51C;
+}
+.ingredient-button:hover {
+    color: white;
+    background-color: #2B1000;
+    border: 1px solid #2B1000;
+}
